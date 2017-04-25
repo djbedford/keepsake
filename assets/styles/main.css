@@ -115,6 +115,80 @@ header nav li a {
     clear: both;
 }
 
-#latest-work img {
+#latest-work-images {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+#latest-work-images img {
     float: left;
+    width: 32%;
+}
+
+#latest-work-images img:nth-child(2),
+#latest-work-images img:nth-child(5),
+#latest-work-images img:nth-child(8) {
+    padding: 0 2%;
+}
+
+#latest-work-images img:nth-child(4),
+#latest-work-images img:nth-child(5),
+#latest-work-images img:nth-child(6) {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#latest-work-images::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#jobs {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#jobs button {
+    float: none;
+
+}
+
+#selling-points {
+    padding-bottom: 20px;
+}
+
+#selling-points h3 {
+    margin-bottom: 10px;
+}
+
+#selling-points p {
+    margin-top: 0;
+}
+
+#selling-points li {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    float: left;
+    list-style-type: none;
+}
+
+#selling-points li p {
+    width: 80%;
+    padding: 0 10%;
+}
+
+#selling-points::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#articles h3 {
+    margin-bottom: 10px;
+}
+
+#articles p {
+    margin-top: 0;
 }
