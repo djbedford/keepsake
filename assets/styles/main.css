@@ -85,7 +85,7 @@ header nav li a {
 }
 
 #latest-work-title {
-    padding-bottom: 20px;
+    padding: 10px 0 20px;
 }
 
 #latest-work h3 {
@@ -103,6 +103,7 @@ header nav li a {
     border: none;
     color: white;
     padding: 5px;
+    margin-top: -4px; 
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -185,10 +186,55 @@ header nav li a {
     clear: both;
 }
 
+#articles {
+    padding-bottom: 70px;
+}
+
 #articles h3 {
     margin-bottom: 10px;
 }
 
 #articles p {
     margin-top: 0;
+}
+
+#articles li {
+    float: left;
+    width: 48%;
+    padding-bottom: 15px;
+    list-style-type: none;
+}
+
+#articles img {
+    float: left;
+    padding-right: 2%;
+}
+
+#articles::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+footer {
+    background: #2d2d2f;
+    color: #fff;
+    text-align: center;
+}
+
+#copyright {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+#social-media {
+    padding-bottom: 50px;
+}
+
+#social-media a {
+    padding-right: 10px;
+}
+
+#social-media a:last-child {
+    padding-right: 0;
 }
